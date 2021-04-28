@@ -11,7 +11,6 @@ void Train::setData(BAKU_Train data)
 {
     memcpy(&m_train_data, &data, sizeof(BAKU_Train));
     update();
-
 }
 
 void Train::updateData(BAKU_Train data)
